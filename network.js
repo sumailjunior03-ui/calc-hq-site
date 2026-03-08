@@ -62,6 +62,14 @@ window.CALC_HQ_NETWORK = [
     description: "US federal quarterly estimated tax calculator for 1099 and self-employed.",
     category: "tax",
     live: true
+  },
+  {
+    name: "Total Compensation Calculator",
+    slug: "totalcompcalc",
+    url: "https://totalcompcalc.com",
+    description: "Compare two job offers side by side including salary, bonus, equity, and benefits.",
+    category: "income",
+    live: true
   }
 ];
 
