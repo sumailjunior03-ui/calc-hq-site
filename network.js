@@ -70,6 +70,22 @@ window.CALC_HQ_NETWORK = [
     description: "Compare two job offers side by side including salary, bonus, equity, and benefits.",
     category: "income",
     live: true
+  },
+  {
+    name: "Overtime Pay Calculator",
+    slug: "overtimepaycalc",
+    url: "https://overtimepaycalc.com",
+    description: "Calculate overtime pay with time-and-a-half and weekly earnings estimates.",
+    category: "income",
+    live: true
+  },
+  {
+    name: "After-Tax Salary Calculator",
+    slug: "aftertaxsalarycalc",
+    url: "https://aftertaxsalarycalc.com",
+    description: "Estimate take-home salary after federal and state income tax deductions.",
+    category: "tax",
+    live: true
   }
 ];
 
