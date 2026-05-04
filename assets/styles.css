@@ -96,8 +96,36 @@ a{color:inherit}
 .faq-item h3{margin:0 0 8px;font-size:16px;font-weight:700}
 .faq-item p{margin:0;color:#374151;line-height:1.65;font-size:15px}
 
+/* Decision cards */
+.decision-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.decision-card{display:flex;flex-direction:column;gap:6px;border:1.5px solid var(--border);border-radius:var(--radius);padding:20px 22px;text-decoration:none;background:#fff;box-shadow:0 2px 8px rgba(17,24,39,.05);transition:box-shadow .15s,transform .15s}
+.decision-card:hover{box-shadow:0 8px 24px rgba(17,24,39,.12);transform:translateY(-2px);text-decoration:none}
+.decision-q{font-weight:700;font-size:15px;color:var(--text);line-height:1.35}
+.decision-a{font-size:13px;color:var(--muted);line-height:1.45}
+
+/* Money flow */
+.flow-grid{display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap}
+.flow-step{flex:1;min-width:180px;background:#f9fafb;border:1px solid var(--border);border-radius:12px;padding:18px 16px}
+.flow-num{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:var(--primary);color:#fff;font-weight:700;font-size:14px;margin-bottom:10px}
+.flow-label{font-weight:700;font-size:15px;display:block;margin-bottom:6px}
+.flow-step p{margin:0 0 8px;font-size:13px;color:var(--muted);line-height:1.45}
+.flow-step a{font-size:13px;font-weight:700;color:var(--primary2);text-decoration:none}
+.flow-step a:hover{text-decoration:underline}
+.flow-arrow{font-size:22px;color:var(--muted);padding-top:40px;font-weight:300}
+
+/* Scenario list */
+.scenario-list{display:flex;flex-direction:column;gap:0}
+.scenario-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--border)}
+.scenario-row:last-child{border-bottom:none}
+.scenario-if{font-size:15px;color:var(--text);flex:1}
+.scenario-link{font-size:14px;font-weight:700;color:var(--primary2);text-decoration:none;white-space:nowrap}
+.scenario-link:hover{text-decoration:underline}
+
 @media (max-width:760px){
-  .hero h1{font-size:32px}
+  .decision-grid{grid-template-columns:1fr}
+  .flow-grid{flex-direction:column}
+  .flow-arrow{padding-top:0;text-align:center}
+  .scenario-row{flex-direction:column;align-items:flex-start;gap:4px}
   .grid{grid-template-columns:1fr}
   .category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .card-grid{grid-template-columns:1fr}

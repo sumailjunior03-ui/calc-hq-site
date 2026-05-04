@@ -89,6 +89,14 @@ window.CALC_HQ_NETWORK = [
     description: "Estimate take-home salary after federal and state income tax deductions.",
     category: "tax",
     live: true
+  },
+  {
+    name: "Bonus Tax Calculator",
+    slug: "bonustaxcalc",
+    url: "https://bonustaxcalc.com",
+    description: "Estimate federal withholding on bonus and supplemental wage payments.",
+    category: "tax",
+    live: true
   }
 ];
 
