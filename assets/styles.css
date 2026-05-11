@@ -136,3 +136,12 @@ a{color:inherit}
 @media (max-width:480px){
   .category-grid{grid-template-columns:1fr}
 }
+
+/* Mailto links in footer — visible underline */
+.site-footer a[href^="mailto:"] {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+.site-footer a[href^="mailto:"]:hover {
+  opacity: 1;
+}

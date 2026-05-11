@@ -7,7 +7,7 @@ window.CALC_HQ_NETWORK = [
     slug: "bizdaychecker",
     url: "https://bizdaychecker.com",
     description: "Business day calculator for future and past dates.",
-    category: "business-days",
+    category: "payroll-timing",
     live: true
   },
   {
@@ -15,31 +15,7 @@ window.CALC_HQ_NETWORK = [
     slug: "bankcutoffchecker",
     url: "https://bankcutoffchecker.com",
     description: "ACH and wire cutoff time checker by bank.",
-    category: "banking",
-    live: true
-  },
-  {
-    name: "Hourly to Salary Calculator",
-    slug: "hourly2salarycalc",
-    url: "https://hourly2salarycalc.com",
-    description: "Convert hourly pay into weekly, monthly, and annual salary estimates.",
-    category: "income",
-    live: true
-  },
-  {
-    name: "Salary vs Inflation Calculator",
-    slug: "salaryvsinflation",
-    url: "https://salaryvsinflation.com",
-    description: "Compare wage growth against inflation-adjusted purchasing power.",
-    category: "income",
-    live: true
-  },
-  {
-    name: "1099 vs W-2 Calculator",
-    slug: "1099vsw2calc",
-    url: "https://1099vsw2calc.com",
-    description: "Compare contractor and employee take-home estimates.",
-    category: "tax",
+    category: "payroll-timing",
     live: true
   },
   {
@@ -47,39 +23,7 @@ window.CALC_HQ_NETWORK = [
     slug: "payrolldatechecker",
     url: "https://payrolldatechecker.com",
     description: "Calculate payroll processing and submit dates around holidays.",
-    category: "business-days",
-    live: true
-  },
-  {
-    name: "Freelance Income Calculator",
-    slug: "freelanceincomecalc",
-    url: "https://freelanceincomecalc.com",
-    description: "Estimate gross freelance earnings from your hourly rate and schedule.",
-    category: "income",
-    live: true
-  },
-  {
-    name: "Quarterly Tax Calculator",
-    slug: "quarterlytaxcalc",
-    url: "https://quarterlytaxcalc.com",
-    description: "US federal quarterly estimated tax calculator for 1099 and self-employed.",
-    category: "tax",
-    live: true
-  },
-  {
-    name: "Total Compensation Calculator",
-    slug: "totalcompcalc",
-    url: "https://totalcompcalc.com",
-    description: "Compare two job offers side by side including salary, bonus, equity, and benefits.",
-    category: "income",
-    live: true
-  },
-  {
-    name: "Overtime Pay Calculator",
-    slug: "overtimepaycalc",
-    url: "https://overtimepaycalc.com",
-    description: "Calculate overtime pay with time-and-a-half and weekly earnings estimates.",
-    category: "income",
+    category: "payroll-timing",
     live: true
   },
   {
@@ -87,7 +31,7 @@ window.CALC_HQ_NETWORK = [
     slug: "aftertaxsalarycalc",
     url: "https://aftertaxsalarycalc.com",
     description: "Estimate take-home salary after federal and state income tax deductions.",
-    category: "tax",
+    category: "tax-income",
     live: true
   },
   {
@@ -95,7 +39,87 @@ window.CALC_HQ_NETWORK = [
     slug: "bonustaxcalc",
     url: "https://bonustaxcalc.com",
     description: "Estimate federal withholding on bonus and supplemental wage payments.",
-    category: "tax",
+    category: "tax-income",
+    live: true
+  },
+  {
+    name: "Take Home Salary Calculator",
+    slug: "takehomesalarycalc",
+    url: "https://takehomesalarycalc.com",
+    description: "Federal take-home salary after taxes and deductions.",
+    category: "tax-income",
+    live: true
+  },
+  {
+    name: "Total Compensation Calculator",
+    slug: "totalcompcalc",
+    url: "https://totalcompcalc.com",
+    description: "Compare two job offers side by side including salary, bonus, equity, and benefits.",
+    category: "compensation",
+    live: true
+  },
+  {
+    name: "Overtime Pay Calculator",
+    slug: "overtimepaycalc",
+    url: "https://overtimepaycalc.com",
+    description: "Calculate overtime pay with time-and-a-half and weekly earnings estimates.",
+    category: "compensation",
+    live: true
+  },
+  {
+    name: "Salary vs Inflation Calculator",
+    slug: "salaryvsinflation",
+    url: "https://salaryvsinflation.com",
+    description: "Compare wage growth against inflation-adjusted purchasing power.",
+    category: "compensation",
+    live: true
+  },
+  {
+    name: "Hourly to Salary Calculator",
+    slug: "hourly2salarycalc",
+    url: "https://hourly2salarycalc.com",
+    description: "Convert hourly pay into weekly, monthly, and annual salary estimates.",
+    category: "compensation",
+    live: true
+  },
+  {
+    name: "Freelance Income Calculator",
+    slug: "freelanceincomecalc",
+    url: "https://freelanceincomecalc.com",
+    description: "Estimate gross freelance earnings from your hourly rate and schedule.",
+    category: "self-employed",
+    live: true
+  },
+  {
+    name: "1099 vs W-2 Calculator",
+    slug: "1099vsw2calc",
+    url: "https://1099vsw2calc.com",
+    description: "Compare contractor and employee take-home estimates.",
+    category: "self-employed",
+    live: true
+  },
+  {
+    name: "Quarterly Tax Calculator",
+    slug: "quarterlytaxcalc",
+    url: "https://quarterlytaxcalc.com",
+    description: "US federal quarterly estimated tax calculator for 1099 and self-employed.",
+    category: "self-employed",
+    live: true
+  },
+  {
+    name: "Federal Tax Rules",
+    slug: "federaltaxrules",
+    url: "https://federaltaxrules.com",
+    description: "IRS tax rules, brackets, and rate reference.",
+    category: "reference",
+    live: true
+  },
+  {
+    name: "Business Day Rules",
+    slug: "businessdayrules",
+    url: "https://businessdayrules.com",
+    description: "NACHA and federal business day rules reference.",
+    category: "reference",
     live: true
   }
 ];

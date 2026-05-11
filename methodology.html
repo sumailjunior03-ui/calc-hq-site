@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Methodology | Calc-HQ.com</title>
+  <meta name="description" content="How Calc-HQ calculators work, what data sources they use, how they are updated, and what they are designed to do." />
+  <link rel="canonical" href="https://calc-hq.com/methodology.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Methodology | Calc-HQ.com" />
+  <meta property="og:description" content="How Calc-HQ calculators work, what data sources they use, how they are updated, and what they are designed to do." />
+  <meta property="og:url" content="https://calc-hq.com/methodology.html" />
+  <meta name="google-adsense-account" content="ca-pub-7744853829365165" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7744853829365165" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://calc-hq.com/#organization",
+        "name": "Calc-HQ",
+        "url": "https://calc-hq.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "partnerships@calc-hq.com",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home",        "item": "https://calc-hq.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Methodology", "item": "https://calc-hq.com/methodology.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <script>
+  window.SITE_CONFIG = {
+    ADS_ACTIVE: false,
+    AD_SLOT_TOP: "",
+    AD_SLOT_BOTTOM: ""
+  };
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">CALC-HQ</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Methodology</h1>
+        <p class="muted">How these calculators work, where the data comes from, and what they are built to do.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container prose">
+
+        <h2>1. How These Calculators Work</h2>
+        <p>Each calculator in the Calc-HQ network runs entirely in the user's browser. Inputs are entered locally, calculations execute in JavaScript, and results are displayed on the page. No form data is submitted to any server at the point of calculation.</p>
+        <p>Calculators use deterministic logic: the same inputs will always produce the same output. Formulas are based on publicly available rules published by the IRS, SSA, OPM, and NACHA. Where rules involve graduated brackets or phase-outs, the calculators apply those brackets sequentially as specified in the authoritative source documents.</p>
+        <p>Results are estimates. They are not audit-quality figures. Rounding, state-level variations, and individual circumstances not captured by a given input set can affect actual outcomes.</p>
+
+        <h2>2. Data Sources</h2>
+        <p>The network draws from the following authoritative US government and industry sources:</p>
+        <ul>
+          <li><strong>Internal Revenue Service (IRS)</strong> — Federal income tax brackets, standard deduction amounts, withholding tables, and supplemental wage rates. Primary references include IRS Revenue Procedures and Publication 15 (Employer's Tax Guide). Current tax year values are sourced from the applicable IRS Rev Proc (e.g., Rev Proc 2025-32 for tax year 2026).</li>
+          <li><strong>Social Security Administration (SSA)</strong> — Social Security wage base and OASDI/Medicare (FICA) rate schedules. Updated annually via SSA COLA announcements.</li>
+          <li><strong>Office of Personnel Management (OPM)</strong> — Federal holiday schedule used for payroll timing and business day calculations. OPM publishes the official federal holiday schedule annually.</li>
+          <li><strong>NACHA — The Electronic Payments Association</strong> — ACH operating rules governing same-day and standard ACH processing windows, cutoff times, and business day definitions used in banking cutoff and payroll timing calculators.</li>
+        </ul>
+        <p>No third-party data aggregators, proprietary data feeds, or commercial rate services are used. All rate inputs are sourced directly from the primary publications listed above.</p>
+
+        <h2>3. Update Policy</h2>
+        <p>Rate-bearing calculators in the network are reviewed and updated when the relevant authoritative sources publish new values. This typically occurs annually:</p>
+        <ul>
+          <li>IRS tax brackets and standard deductions: updated following the relevant annual IRS Revenue Procedure, typically published in Q4 of the preceding tax year.</li>
+          <li>SSA wage base: updated following the SSA annual COLA announcement, typically published in October.</li>
+          <li>OPM federal holiday schedule: updated when OPM publishes the following year's schedule.</li>
+          <li>NACHA ACH rules: reviewed when NACHA publishes rule amendments affecting processing windows or business day definitions.</li>
+        </ul>
+        <p>Calculators display the tax year or rule year they are based on. If you believe a value is out of date, contact <a href="mailto:partnerships@calc-hq.com">partnerships@calc-hq.com</a>.</p>
+
+        <h2>4. What These Calculators Do and Don't Do</h2>
+        <p><strong>What they do:</strong></p>
+        <ul>
+          <li>Apply current federal tax brackets, rates, and thresholds to estimate take-home pay, withholding, and tax liability.</li>
+          <li>Calculate business days and payroll submission deadlines based on OPM federal holidays and NACHA ACH rules.</li>
+          <li>Compare compensation structures (salary, hourly, contractor vs. employee) on a common basis.</li>
+          <li>Estimate quarterly estimated tax obligations for self-employed and 1099 workers using IRS safe harbor rules.</li>
+        </ul>
+        <p><strong>What they don't do:</strong></p>
+        <ul>
+          <li>Account for state or local income taxes unless explicitly stated on a specific calculator.</li>
+          <li>Replace a tax professional, CPA, or payroll service for actual payroll processing or tax filing.</li>
+          <li>Reflect individual deductions, credits, exemptions, or phase-outs beyond what a given calculator's input fields capture.</li>
+          <li>Guarantee accuracy for edge cases, multi-state situations, or complex compensation structures.</li>
+        </ul>
+        <p>Results are for informational and planning purposes only. Important financial decisions should be verified with official IRS publications or a qualified tax professional.</p>
+
+        <h2>5. No Data Collection</h2>
+        <p>Calc-HQ and the linked calculator sites do not collect, store, or transmit the financial inputs you enter. All calculations happen locally in your browser. No account creation is required. No input data is logged.</p>
+        <p>The hub uses Google Analytics (GA4) to collect standard aggregate usage data (page views, session duration, referral source). No personally identifiable financial information is included in analytics events.</p>
+
+        <h2>6. Corrections</h2>
+        <p>If you identify an error in a formula, a stale rate value, or a calculation result that does not match current IRS, SSA, OPM, or NACHA published guidance, email <a href="mailto:partnerships@calc-hq.com">partnerships@calc-hq.com</a> with:</p>
+        <ul>
+          <li>The specific calculator and the input values used.</li>
+          <li>The result you received.</li>
+          <li>The result you expected, and the authoritative source supporting it.</li>
+        </ul>
+        <p>Confirmed errors will be corrected in the next update cycle. Rate corrections affecting live calculations are prioritized.</p>
+
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-title">Calc-HQ</div>
+          <div class="footer-sub">Free financial calculators for tax, pay, and payroll decisions.</div>
+        </div>
+        <div class="footer-contact">
+          <div class="footer-label">Partnerships</div>
+          <a class="footer-email" href="mailto:partnerships@calc-hq.com">partnerships@calc-hq.com</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="legal.html">Legal</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-bottom">© 2026 Calc-HQ</div>
+    </div>
+  </footer>
+  <script src="network.js" defer></script>
+  <script src="assets/ads.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
